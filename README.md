@@ -16,6 +16,6 @@
 3. Tercero
 
 
-*Primero
-*Segundo
-*Tercero
+* Primero
+* Segundo
+* Tercero
