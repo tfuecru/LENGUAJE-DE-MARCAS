@@ -1,0 +1,10 @@
+p.primer{
+    font-style: oblique;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aqua;
+    text-align: center;
+}
+p.segundo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: blueviolet;
+}
