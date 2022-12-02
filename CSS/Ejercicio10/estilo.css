@@ -1,0 +1,37 @@
+p{
+    text-indent: 50px;
+}
+
+p em{
+    text-transform: capitalize;
+}
+
+#uno{
+    text-align: left;
+    width: 65%;
+    font-style: italic;
+    line-height: 4em;
+    border: 1px solid rgb(235, 206, 206);
+    font-size: 12px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#dos{
+    text-align: right;
+    width: 50%;
+    font-style: oblique;
+    line-height: 3em;
+    border: 1px solid rgb(235, 206, 206);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#tres{
+    text-align: center;
+    width: 80%;
+    font-style: normal;
+    line-height: 2em;
+    border: 1px solid rgb(235, 206, 206);
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
