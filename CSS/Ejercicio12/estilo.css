@@ -1,0 +1,30 @@
+section{
+    margin:10px;
+}
+header{
+    margin: 10px;
+    padding: 10px;
+    background-color: blanchedalmond; 
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav{
+    float: left;
+    background-color: beige;
+    margin: 10px;
+    padding: 20px;
+    width: 21%;
+    font-size: 1.2em;
+}
+.enlace{
+    border: 0.5px solid white;
+    padding: 7px;
+}
+article{
+    float: right;
+    background-color: bisque;
+    padding: 10px;
+    width: 72%;
+    margin: 10px;
+    text-align: justify;
+}
