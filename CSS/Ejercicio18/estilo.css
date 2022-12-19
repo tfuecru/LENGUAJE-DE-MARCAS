@@ -1,0 +1,93 @@
+body{
+    margin: 15px;
+    padding: 20px;
+    background-color: rgb(141, 232, 232);
+}
+header{
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 3%;
+    color: firebrick;
+}
+div.contenedora{
+    width: 45%; 
+    height: 400px;
+    background-color: blanchedalmond;  
+}
+
+#foto{
+    float: left;
+    width: 35%;
+    height: 300px;
+    padding: 2em;
+}
+
+#menu{
+    float: right;
+    width: 40%;
+    padding: 2em;
+}
+
+#cerrar{
+    float: right;
+    padding: 3px;
+
+}
+
+#nombre{
+    font-weight: bold;
+    font-size: 2em;
+}
+
+#precio{
+    color: gray;
+    float: right;
+    font-size: 1.5em;
+}
+
+#colores{
+    float: left;
+    clear: both;
+    width: 200px;
+
+}
+
+li{
+    display: inline-block;
+    border: 2px solid black ;
+    border-radius: 1em ;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(49, 33, 153);
+    margin-left: 10px;
+}
+
+#uno{
+    float:left;    
+}
+
+#dos{
+    float: right;  
+}
+
+#tres{
+    float: left;
+    margin-top: 50px;
+    clear: both;
+    
+}
+
+#cuatro{
+    float: right;
+    margin-top: 50px;
+}
+
+footer{
+    font-size: 1.1em;
+    color: rgb(159, 1, 159);
+    padding-top: 5px;
+    padding-left: 20px;
+    clear: both;
+    margin-top: 900px;
+    border: 1px solid cornflowerblue;
+}
