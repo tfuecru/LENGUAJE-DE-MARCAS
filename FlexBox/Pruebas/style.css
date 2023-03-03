@@ -1,0 +1,48 @@
+
+body {
+    /* margin: 0; */
+    font-size: 4rem;
+    font-family: sans-serif;
+    background-color: #1d1818;
+  }
+  
+  .flex-container {
+    background-color: #404040;
+    border-radius: 10px;
+    height:  500px;
+    border: solid 2px yellow;
+    display: flex;
+/*    flex-direction: row;
+      flex-wrap: wrap;
+*/
+    justify-content: flex-start;
+    align-items: center;
+/*    align-content: stretch;*/
+    flex-grow: row wrap;
+  }
+  
+  .flex-container > * {
+    padding: 10px;
+    margin: 10px;
+    border: solid 1px black;
+    border-radius: 10px;
+    background: #f18c55;
+  }
+
+  .one{
+    order: 5;
+    align-self: flex-start;
+    height: 100px;
+  }
+
+  .two{
+    order: 0;
+    align-self: flex-end;
+    height: 100px;
+  }
+
+  .three{
+    order: -1;
+    height: 100px;
+  }
+  
