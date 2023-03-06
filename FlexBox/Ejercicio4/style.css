@@ -1,0 +1,87 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, serif;
+}
+
+header{
+  padding: 30px;
+  background: rgb(255, 158, 113);
+  color: black;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+nav{
+  display:flex;
+  justify-content: flex-start;
+  background: rgb(255, 71, 38);
+}
+  
+nav a{
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+
+aside{
+    display: flex;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+article {
+    text-align:center;
+    padding: 10px;
+    margin: 0.5em;
+    width: 415px;
+}
+
+#articulo-1 {
+    background: gainsboro;
+}
+
+#articulo-2 {
+    background: brown;
+}
+
+#articulo-3 {
+    background: burlywood;
+}
+
+h1{
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(191, 177, 150);
+    padding: 1%;
+}
+
+h4.tituloPiePagina{
+    text-align: center;
+}
+
+img.fotoPiePagina{
+    width: 10%;
+    height: 10%;
+}
+
+div.piePágina{
+    text-align: center;
+    color: rgb(132, 113, 90);
+    margin: 1%;
+    width: 29%;
+    padding: 1%;
+}
