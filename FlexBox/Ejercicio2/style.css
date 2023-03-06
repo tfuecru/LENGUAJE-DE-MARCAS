@@ -1,0 +1,42 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, serif;
+  }
+
+header{
+  overflow: hidden;
+  line-height: 70px;
+  padding-left: 40px;
+  background: #5c5c5c;
+  color: #FFFFFF;
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+section{
+  margin: 2em;
+}
+
+article{
+  display:flex;
+  margin-top: 30px;
+  background: #9d8e8e;
+}
+  
+#no-wrap{
+    flex-wrap: nowrap;
+}
+
+#wrap{
+    flex-wrap: wrap;
+}
+
+img{
+    border: dashed 1px #c9bebe;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+}
